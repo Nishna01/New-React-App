@@ -1,0 +1,15 @@
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 50vh;           
+  background-color: #f4f4f4; }
+
+.content {
+  text-align: center;  }
+
+h1 {
+  font-size: 2rem;   
+  margin: 0;         
+}
