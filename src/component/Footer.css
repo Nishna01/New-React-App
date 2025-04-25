@@ -1,0 +1,75 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.newsletter h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  margin-right: 10px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-links div {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-links h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-links p {
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #555;
+  padding-top: 20px;
+  font-size: 14px;
+}

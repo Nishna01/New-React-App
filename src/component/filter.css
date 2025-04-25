@@ -1,0 +1,57 @@
+.filter {
+  width: 250px;  /* Adjust width as needed */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+}
+
+.filter h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Slightly larger font for the main title */
+}
+
+.filter-section {
+  margin-bottom: 15px;
+}
+
+.filter-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter .filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between the filter options */
+}
+
+.filter .gender-filter, .filter .recommendation-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter .gender-filter label, 
+.filter .recommendation-filter label {
+  display: inline-block;
+}
+
+.filter .recommendation-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Increased space for dropdown */
+}
